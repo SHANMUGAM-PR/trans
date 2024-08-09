@@ -1,0 +1,113 @@
+/* General Body Styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #4a00e0, #8e2de2);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../Images/Loginimage.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Container for centering login box */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+/* Styling for login and signup boxes */
+.login-box {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+.login-box h2 {
+    margin: 0 0 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+/* Styling for text input fields */
+.textbox {
+    margin: 10px 0;
+}
+
+.textbox input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    outline: none;
+    font-size: 18px;
+    color: #333;
+    border-radius: 5px;
+    transition: border-bottom-color 0.3s ease;
+}
+
+.textbox input::placeholder {
+    color: #aaa;
+}
+
+.textbox input:focus {
+    border-bottom-color: #4a00e0;
+}
+
+/* Forgot password link styling */
+.forgot-password {
+    display: block;
+    text-align: left;
+    margin: 10px 0;
+    color: #555;
+    text-decoration: none;
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+    color: #4a00e0;
+}
+
+/* Button styling */
+.btn {
+    width: 100%;
+    background: #4a00e0;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background: #8e2de2;
+}
+
+/* Signup prompt styling */
+.signup {
+    margin-top: 20px;
+    color: #555;
+}
+
+.signup a {
+    color: #4a00e0;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.signup a:hover {
+    text-decoration: underline;
+}
